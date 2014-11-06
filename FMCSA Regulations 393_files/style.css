@@ -1,0 +1,1923 @@
+/******************************** High - Level Background Classes - Start ***************************/
+
+
+
+/* Class used to provide background for the standard website pages */
+
+		
+/* Class used to provide the white background for the print-only pages */		
+body.print
+		{
+			background-color: #FFFFFF;
+			background-repeat: repeat;
+			margin-top:0;
+			font-family:Arial;
+			font-size:small;
+		}
+		
+/******************************** High - Level Background Classes - End ***************************/
+
+/******************************* Top Utility Bar - Start **********************/
+
+/* Class for TR at top of page US DOT, Keyword Links, Contact, Espanol  */
+tr.utl
+		{
+			font-size: 10px;
+			font-family:Arial;
+			/* background-image: url("/images/new_style/top_bg.gif"); */
+			background-repeat: repeat-x;
+			background-position: left bottom;
+			padding-top:2px;
+			padding-left:2px;
+			vertical-align: middle;
+		}
+
+/* Class for anchors at top of page US DOT, Keyword Links, Contact, Espanol  */
+a.utl:link, a.utl:visited, a.utl:active
+		{
+			font-size: 10px;
+			color: #a0161d;
+			text-decoration: none;
+			font-family:Arial;
+			font-style: bold;
+		}
+
+		
+/* Class for anchors at top of page US DOT, Keyword Links, Contact, Espanol  */
+a.utl:hover
+		{
+			font-size: 10px;
+			color: #a0161d;
+			text-decoration: underline;
+		}
+.utl	
+		{
+	font-size: 10px;
+	color: #a0161d;
+	text-decoration: none;
+	font-family:Arial;
+	font-style: bold;
+	vertical-align: middle;
+		}
+.utl_select
+		{
+			font-size: 10px;
+			text-decoration: none;
+			font-family:Arial;
+			font-style: bold;
+			height:20px;
+			vertical-align: middle;
+		}	
+
+/******************************* Top Utility Bar - End **********************/
+
+/******************************** Main Banner - Begin *************************************/
+
+/* Class for the right-side of the header banner where the page runs over 760 px.
+   This class will create the dark blue shading */
+tr.banneroverrun
+{
+ /*background-color: #08142e;*/
+ background-color: #ffffff;
+}
+
+/* Holds the actual header image and padding options */
+td.bannerimage
+{
+/* background-image: url("/images/new_style/header_bg3.jpg"); */
+ width:755px;
+ height:90px;
+ background-repeat:no-repeat;
+}
+
+td.bannerimageThin
+{
+/* background-image: url("/images/new_style/FMCSA_bg_thin.jpg"); */
+ width:755px;
+ height:54px;
+ background-repeat:no-repeat;
+}
+/* Class for text inside of banner image */
+p.hdr
+		{
+			font-family:Arial;
+			font-size: 24px;
+			font-style: normal;
+			color: #fff;
+			margin-left: 10px;
+			margin-bottom: 2px;
+		}
+		
+p.hdrThin
+		{
+			font-family:Arial;
+			font-size: 20px;
+			font-style: normal;
+			color: #fff;
+			margin-left: 10px;
+			margin-top: 2px;
+			margin-bottom: 0px;
+		}   
+		
+p.hdrThinsub
+		{
+			font-family:Arial;
+			font-size: 14px;
+			font-style: normal;
+			color: #fff;
+			margin-left: 10px;
+			margin-top: 0px;
+		}			
+
+/******************************** Main Banner Text - End *************************************/
+
+/***************************************** Mission Statement - Start ******************************/
+
+/* Provides container for mission statement on the homepage */
+table.mission
+		{
+			 background-color:#172b65;
+			 border:1px solid #555;
+			 font-family:Arial;
+			 font-style:italic;
+			 font-weight: bold;
+			 font-size: 12px;
+			 color: #fff;
+			 padding: 2px 0px;
+		}
+
+/***************************************** Mission Statement - End ******************************/
+
+/******************************* Horizontal Navigation Bar Elements - Start **********************/
+
+/* Class for horizontal nav bar - One Row of Menus - Sets up white border between horizontal navigatrion elements*/
+td.cell
+		{
+			border-left: 1px solid #fff;
+			border-bottom:1px solid #fff;
+		}
+		
+/* Class for Home Cell in horizontal nav bar - One Row of Menus - Sets up white border between horizontal navigatrion elements*/
+td.HomeCell
+		{
+			/*border-left: 1px solid #fff; */
+			border-bottom:1px solid #fff;
+		}
+		
+/* Class for horizontal nav bar - Multiple Rows of Menus - Sets up white border between horizontal navigatrion elements*/
+td.cellMultiLevel
+		{
+			border-left: 1px solid #fff;
+			border-bottom:1px solid #CCCCCC;
+		}
+		
+/* Class for Home Cell in horizontal nav bar - Multiple Rows of Menus - Sets up white border between horizontal navigatrion elements*/
+td.HomeCellMultiLevel
+		{
+			/*border-left: 1px solid #fff; */
+			border-bottom:1px solid #CCCCCC;
+		}
+
+/* Creates the gray background for the 2nd level navigation elements */
+td.LevelTwoNav
+{
+ /* background-color:#c7d3e0; */
+   background-color:#CCCCCC;
+}
+/* Creates the red background for the top level navigation elements */
+td.topNavTD
+{
+	background-color: #a0161d;
+}
+td.paddingleft
+{
+	padding-left: 15px;
+}
+
+/* Class for horizontal nav bar - First Row - Non Selected Items */
+a.navi:link, a.navi:visited, a.navi:active
+		{
+			
+			color: #fff;
+			display: block;
+			background-color: #a0161d;
+			font-size: 12px; 
+			font-weight: bold; 
+			text-decoration: none;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			font-family:Arial;
+			
+		}		
+		
+/* Class for horizontal nav bar - Hover over non-selected items - First Row */
+a.navi:hover 
+		{
+			color: #333;
+			background-color:#c7d3e0;
+			display: block;
+  		    font-size: 12px; 
+			font-weight: bold; 
+			text-decoration: none;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			font-family:Arial;
+		}
+
+/* Class for horizontal nav bar - Home Link Not Selected - First Row 
+a.naviFirst:active, a.naviFirst:link, a.naviFirst:hover, a.naviFirst:visited
+		{
+			color: #033591;
+			display: block;
+			font-size: 12px;
+			font-weight: bold;
+			font-family:Arial;
+			background-color: #a0161d;
+			text-decoration: none;
+			
+		}
+*/
+		
+/* Class for horizontal nav bar - Link Selected - First Row */
+a.naviFirstHighlight:active, a.naviFirstHighlight:link, a.naviFirstHighlight:hover, a.naviFirstHighlight:visited
+
+		{
+			/*color: #333; */
+			background-color:#FFFFFF;
+			/* background-color:#CCCCCC;  */
+			display: block;
+  		    font-size: 12px; 
+			font-weight: bold; 
+			text-decoration: none;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			font-family:Arial;		
+			border-bottom: none;
+			/* border-bottom-color:#FFFFFF; */
+	
+		}
+		
+/* Class for horizontal nav bar - Link Selected - First Row - Multiple Levels */
+a.naviFirstHighlightMultiLevel:active, a.naviFirstHighlightMultiLevel:link, a.naviFirstHighlightMultiLevel:hover, a.naviFirstHighlightMultiLevel:visited
+
+		{
+			color: #333;
+			/* background-color:#FFFFFF; */
+			background-color:#CCCCCC;
+			display: block;
+  		    font-size: 12px; 
+			font-weight: bold; 
+			text-decoration: none;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			font-family:Arial;		
+			border-bottom: none;
+			/* border-bottom-color:#FFFFFF; */
+	
+		}
+		
+	
+
+
+/******************************* Horizontal Navigation Bar Elements - End **********************/
+
+/******************************* Breadcrumbs - Start *******************************************/
+
+/* Class for the breadcrumbs table */		
+.contentContainerbread
+		{
+			 			
+			 background-color: #fff;
+			 border-left:1px solid #555;
+			 border-right:1px solid #555;
+		}
+
+/* Class for Breadcrumbs text */
+.breadcrumbs
+		{
+			font-size: xx-small;
+			font-family:Arial;
+			margin-bottom: 1px;
+		}
+
+/* Class for Breadcrumbs Anchors */
+a.breadcrumbs:link, a.breadcrumbs:visited, a.breadcrumbs:active
+		{
+			
+			text-decoration: none;
+			font-size: xx-small;
+		}
+/* Class for Breadcrumbs Anchors */
+a.breadcrumbs:hover
+		{
+			color: #ff6600;
+			text-decoration: underline;
+			font-size: xx-small;
+		}
+
+
+/* Class for Breadcrumbs text */
+.breadcrumbswhite
+		{
+			font-size: xx-small;
+			font-family:Arial;
+			margin-bottom: 1px;
+		}
+
+/* Class for Breadcrumbs Anchors */
+a.breadcrumbswhite:link, a.breadcrumbswhite:visited, a.breadcrumbswhite:active
+		{
+			color: #fff;
+			text-decoration: none;
+			font-size: xx-small;
+		}
+/* Class for Breadcrumbs Anchors */
+a.breadcrumbswhite:hover
+		{
+			color: #fff;
+			text-decoration: underline;
+			font-size: xx-small;
+		}
+		/****************************Print-Other links*****************************************************/
+		/* Class for Print & gov delivery text */
+.breadcrumbslinks
+		{
+			font-size: xx-small;
+			font-family:Arial;
+			margin-bottom: 1px;
+		}
+
+/* Class for Print & gov delivery Anchors */
+a.breadcrumbslinks:link, a.breadcrumbswhite:visited, a.breadcrumbswhite:active
+		{
+		    font-size: xx-small;
+			color: #033591;
+			text-decoration: none;
+			
+		}
+		
+/* Class for print & gov delivery Anchors */
+a.breadcrumbslinks:hover
+		{
+			color: #033591;
+			text-decoration: underline;
+			
+		}
+		
+		
+
+		
+/******************************* Breadcrumbs - End *******************************************/
+
+/************** Left Hand Side Navigation (Table of Contents) - Start ********/
+
+/* Created border for TOC */
+td.leftNavMain2	{
+    /*background-image: url("/images/new_style/lft_nav_bg2.gif"); */
+	background-repeat: no-repeat;
+	border-top: solid 1px #798EBD;
+	/*border-bottom: solid 1px #798EBD; */
+	border-left: solid 0px	#555;			
+}
+
+/* TD Class for when a TOC Heading is selected */
+/* IE, http://www.fmcsa.dot.gov/about/contact/who-to-contact/contactus.htm - note the Contact Us*/
+.TOCHeadSelectedTD
+{
+	
+	font-family:Arial;
+	font-weight:bold;
+	background-position: left;
+	background-color:#ffffff;
+	border-style: solid; 
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-color: #798EBD;  
+	color: #000000;
+	padding-left: 5px;
+	padding-top: 16px;
+	padding-bottom: 4px;
+	text-align:left;
+}
+
+/* TD Class for selected items on the TOC - These are the 2nd level items */
+.TOCSelectedTD
+{
+	
+	font-family:Arial;
+	background-position: left;
+	background-color:#ffffff;
+	border-style: solid; 
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-color: #798EBD;  
+	color: #000000;
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align:left;
+}
+
+/* TD Class for when a TOC Heading is NOT selected */
+/* i.e., http://www.fmcsa.dot.gov/about/aboutus.htm - note the Contact Us*/
+.TOCHeadTD
+{
+	/*background-color: #f5f8fa;*/
+	/*background-color: #e7f1f7;*/
+	background-color: #f4f8fb;
+	font-weight:bold;
+	font-family:Arial;
+	color: #000000;
+	padding-top: 16px;
+	padding-bottom: 4px;  
+	padding-left: 8px; 
+	border-style: solid; 
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 1px; 
+	border-color: #798EBD;	
+	text-align:left;
+	
+}
+
+/* TD Class for non-selected items on the TOC - These are the 2nd level items */
+.TOCUnselectedTD
+{
+	border-style: solid; 
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-color: #798EBD; 
+	padding-left: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align:left;
+}
+
+/* TOC Anchor Classes */
+/* Anchor Class for Left-Nav: Selected Tags */
+td.TOCSelectedTD a:active, td.TOCSelectedTD a:visited, td.TOCSelectedTD a:link
+{
+	font-family:Arial;
+	
+	color: #033591;
+	text-decoration: none;
+	display: block;
+}
+
+td.TOCSelectedTD a:hover
+{
+	font-family:Arial;
+	
+	color: #033591;
+	text-decoration: underline;
+	display: block;
+}
+
+/* Anchor  Class for Left-Nav: Selected Heading Tags */
+td.TOCHeadSelectedTD a:active, td.TOCHeadSelectedTD a:visited, td.TOCHeadSelectedTD a:link
+{
+	text-decoration: none;
+	display: block;
+}
+
+td.TOCHeadSelectedTD a:hover
+{
+	text-decoration: underline;
+	display: block;
+}
+
+
+/* Anchor Class for Left-Nav: Anchor tags not selected */
+td.TOCUnselectedTD a:active, td.TOCUnselectedTD a:visited, td.TOCUnselectedTD a:link
+{
+	font-family:Arial;
+	
+	color: #033591;
+	text-decoration: none;
+	display: block;
+}
+
+/* Anchor Class for Left-Nav: Anchor tags not selected - Hover produces the gray shading */
+td.TOCUnselectedTD a:hover
+{
+	font-family:Arial;
+	
+	color: #033591;
+	text-decoration: underline;
+	/*background-color: #BEBEBE; */
+}
+
+/* Anchor Class for Left-Nav: Non-Selected Heading Tags */
+td.TOCHeadTD a:link, td.TOCHeadTD a:active, td.TOCHeadTD a:visited
+{
+ text-decoration:none;
+ color:#000000;
+}
+
+/* Anchor Class for Left-Nav: Non-Selected Heading Tags  - Hover produces the gray shading */
+td.TOCHeadTD a:hover
+{
+	text-decoration: underline;
+	/*background-color: #BEBEBE; */
+ color:#000000;
+ display: block;
+}
+
+/************** Left Hand Side Navigation (Table of Contents) - End ********/
+
+/*************************** Containter Classes - Start **************************************/
+
+/* Table container for TOC and Main content */
+table.leftNavAndContenttable{
+	border-left: solid 0px #e8e8e8;
+	background-color: #f4f8fb;
+	/*background-color: #f5f8fa;*/
+	/*background-color: #e7f1f7;*/
+}	
+
+/*************************** Containter Classes - End **************************************/
+
+/*************************** Footer Elements - Start ***************************************/
+
+/* Container Table for footer elements */
+table.footer
+		{
+			border-right: 1px solid #555;
+			border-left: 1px solid #555;
+			border-bottom: 1px solid #555;
+			border-top: 1px solid #555;
+			background-color:#FFFFFF;
+  		    font-size: 11px;
+			font-family:Arial;
+			
+		}
+		
+/* Container Table for footer elements  where there is no page body - Remove the left, bottom, right borders*/
+table.footernoborder
+		{
+
+			border-top: 1px solid #555;
+			background-color:#FFFFFF;
+  		    font-size: 11px;
+			font-family:Arial;
+		}
+
+/* Provides footer background - Tri Watermark */
+td.tri
+	{
+		/* background-image: url("/images/new_style/footer_center.jpg");		*/
+		background-position: top center;
+		background-repeat: no-repeat;
+	}
+
+/* Class for footer links */
+a.footer:link, a.footer:visited, a.footer:active
+		{
+			font-size: 11px;
+			font-family:Arial;
+			color: #033591;
+			text-decoration: none;
+			
+		}
+
+/* Class for footer links - Hover */
+a.footer:hover
+		{
+			text-decoration: underline;
+			font-size: 11px;
+			font-family:Arial;
+			color: #033591;
+		}
+
+
+/*************************** Footer Elements - End *****************************************/
+
+/************************** No Bullets - TD Container Based - Start *****************************/
+
+/* TD Container for areas where No Bullets are required */
+td.contentareanobullets
+		{
+			 font-size:small;	
+			 background-color: #fff;
+			 /*border-bottom:1px solid #555; */
+			 border-right:1px solid #555;
+		}
+
+/* ul Class used for page where bullets are NOT wanted */		
+td.contentareanobullets ul
+		{
+		font-size:small;	
+			margin: 0px;
+   		    list-style-type: none;
+			/* padding-top: 5px; */
+		}
+/* ul Class used for page where bullets are NOT wanted */		
+td.contentareanobullets ol
+		{
+		font-size:small;	
+			margin: 0px;
+   		    list-style-type: none;
+			/* padding-top: 5px; */
+		}		
+
+/* li Class used for page where bullets are NOT wanted */		
+td.contentareanobullets li
+		{
+			font-size:small;	
+			color: #333;
+			margin-left: 0px; 
+			list-style-type: none;
+			font-family:Arial;
+			padding-bottom: 2px;
+			padding-top: 2px;
+		}		
+		
+/* li Class used for page where bullets are NOT wanted - 2nd level of nesting*/		
+td.contentareanobullets li li
+		{
+			font-size:small;	
+			color: #333;
+			margin-left: 15px;
+			list-style-type: none;
+			font-family:Arial;
+			padding-bottom: 2px;
+			padding-top: 2px;
+		}		
+
+/* li Class used for page where bullets are NOT wanted - 3rd level of nesting*/		
+td.contentareanobullets li li li
+		{
+			font-size:small;	
+			color: #333;
+			margin-left: 15px;
+			list-style-type: none;
+			font-family:Arial;
+			padding-bottom: 2px;
+			padding-top: 2px;
+		}					
+
+/************************** No Bullets - Container Based - End *****************************/
+
+/************************** Bullets - TD Container Based - Start *****************************/
+
+/* TD Container for areas where Bullets are required */
+td.contentarea
+		{
+			 			
+			 background-color: #fff;
+			/* border-bottom:1px solid #555; */
+			 border-right:0px solid #e8e8e8; 
+		}
+
+/* ul Class used for page where bullets are wanted */
+td.contentarea ul
+		{
+			padding: 0;
+			margin-left: 20px; 
+			margin-top:0px;
+			
+		}
+/* ul Class used for page where bullets are wanted */
+td.contentarea ol
+		{
+			padding: 0;
+			margin-left: 20px; 
+			margin-top:0px;
+			
+		}		
+/* li Class used for page where bullets are wanted - Light Blue Circle*/
+td.contentarea li
+		{
+			
+			list-style-image: url(/images/new_style/li_1.gif);
+			font-family:Arial;
+		}		
+
+/* li Class used for page where bullets are wanted - Empty Circle with Blue Outline*/
+td.contentarea li li
+		{
+			
+			list-style-image: url(/images/new_style/li_2.gif);
+			font-family:Arial;
+		}		
+		
+/* li Class used for page where bullets are wanted - Light Blue Square */
+td.contentarea li li li
+		{
+			
+			list-style-image: url(/images/new_style/li_3.gif);
+			font-family:Arial;
+		}	
+
+/************************** Bullets - Container Based - End *****************************/
+
+/************************** No Bullets - UL Class - Start *******************************/
+/* UL nobullets Class  - Need to Assign this one to the UL */
+/*                     - Used for classes with no bullets  */
+/*                     - Goes two levels of LI             */
+ul.nobullets
+		{
+			margin-left: 20px;
+   		    list-style-type: none;
+		}
+
+ul.nobullets li
+		{
+			
+			color: #333;
+			list-style-type: none;
+			margin-left: 0px;
+			font-family:Arial;
+			padding-bottom: 1px;
+			padding-top: 1px;
+		}		
+		
+ul.nobullets li ul li
+		{
+			
+			color: #333;
+			list-style-type: none;
+			margin-left: -30px;
+			font-family:Arial;
+			padding-bottom: 1px;
+			padding-top: 1px;
+		}	
+/************************** No Bullets - UL Class - End *******************************/
+
+/************************* Bullets - UL Class - Begin *********************************/
+/* ul Class used for page where bullets are wanted */
+ul.bullets
+		{
+			padding: 0;
+			margin-left: 20px; 
+		}
+		
+/* li Class used for page where bullets are wanted - Light Blue Circle */
+ul.bullets li
+		{
+			
+			/* list-style-image: url(/images/new_style/li_1.gif); */
+			font-family:Arial;
+			padding-bottom: 1px;
+			padding-top: 1px;
+			
+		}		
+
+/* li Class used for page where bullets are wanted - Empty Circle with Blue Outline*/
+ul.bullets li li
+		{
+			
+			/* list-style-image: url(/images/new_style/li_2.gif); */
+			font-family:Arial;
+			padding-bottom: 1px;
+			padding-top: 1px;
+			margin-left: -20px;
+		}		
+		
+/* li Class used for page where bullets are wanted - Light Blue Square */
+ul.bullets li li li
+		{
+			
+			/* list-style-image: url(/images/new_style/li_3.gif); */
+			font-family:Arial;
+			padding-bottom: 1px;
+			padding-top: 1px;
+		}
+/************************* Bullets - OL Class For Content Area - End *********************************/
+
+
+/* ol Class used for page where bullets are wanted */
+td.contentarea ol
+		{
+			padding: 0;
+			margin-left: 20px; 
+			margin-top:0px;
+		}
+		
+/* li Class used for page where ol bullets are wanted*/
+td.contentarea ol li
+		{
+			margin-left: 15px; 
+			font-size:xxsmall;
+			list-style-image: none;
+			font-family:Arial;
+		}		
+
+/* li Class used for page where ol bullets are wanted*/
+td.contentarea ol li li
+		{
+			
+			list-style-image: none;
+			font-family:Arial;
+		}		
+		
+/* li Class used for page where ol bullets are wanted */
+td.contentarea ol li li li
+		{
+			
+			list-style-image: none;
+			font-family:Arial;
+		}	
+
+/************************* Bullets - OL Number Class - End *********************************/
+
+/*********************** Alert, News, Notices Common Elements - Start **********************/
+
+/* Container Table For Alerts, News, Notice, and Related Link Items */
+table.alert, table.news, table.notice, table.rellink
+		{
+			
+			background-color: #fff;
+		}
+
+/* UL Class For Alerts, News, Notice, and Related Link Items - Hide the bullets */		
+table.alert ul, table.news ul, table.notice ul, table.rellink ul
+		{
+			margin-left: 10px;
+			padding: 0px;
+			margin: 0px;
+			list-style-type:none;
+			list-style-image:none;
+			display: block;
+		}
+
+/* LI Class for Alerts */		
+table.alert li
+		{
+			
+			font-family:Arial;
+			color: #555;
+			border-bottom: 1px solid #a0161d;
+			border-right: 1px solid #a0161d;
+			border-left: 1px solid #a0161d;
+			margin-left: 0px;
+			list-style-type: none;
+			list-style-image:none;
+		}
+
+/* LI Class for News, Notices, and Related Links */		
+table.news li, table.notice li, table.rellink li
+		{
+			font-size:xx-small;
+			font-family:Arial;
+			color: #555;
+			border-bottom: 1px solid #555;
+			border-right: 1px solid #555;
+			border-left: 1px solid #555;
+			margin-left: 0px;
+			list-style-type: none;
+			list-style-image:none;
+			padding:0 0 0 0;
+		}
+		
+/* Home page - New at FMCSA Header Class */
+td.hdr
+	{
+		font-size: 12px;
+		font-weight: bold;
+		color: #444;
+		padding-left: 4px;
+		border: 1px solid #555;
+		/* background-image: url("/images/new_style/lftsd_hdr_bg.gif"); */
+		background-position: top left;
+		height: 20px;
+		background-repeat: repeat-x;
+		font-family:Arial;
+	}
+
+/*********************** Alert, News, Notices Common Elements - End **********************/
+
+/*********************** Alert Box on Homepage - Start **********************************/
+
+/* Home Page Alert Class */
+td.alerthdr
+	{
+		font-size: 12px;
+		font-weight: bold;
+		color: #444;
+		padding-left: 4px;
+		border: 1px solid #a0161d;
+		/* background-image: url("/images/new_style/lftsd_hdr_bg5.gif"); */
+		background-position: top left;
+		height: 20px;
+		background-repeat: repeat-x;
+		font-family:Arial;
+	}
+
+/* Class for Alert links on homepage */		
+a.alert:link,a.alert:visited, a.alert:active
+		{
+			font-size: x-small;
+			display: block;
+			font-family:Arial;
+			color: #a0161d;
+			padding: 3px;
+			text-decoration: none;
+		}
+
+/* Class for Hover on Alert links on homepage */			
+a.alert:hover
+		{
+			color: #333;
+			background-color: #bfd3e5;		
+			font-size: x-small;
+			display: block;
+			font-family:Arial;
+			padding: 3px;
+			text-decoration: none;
+		}
+
+/*********************** Alert Box on Homepage - End **********************************/
+
+/*********************** News Box on Homepage - Start **********************************/
+
+/* class for News links of homepage */		
+a.news:link, a.news:visited, a.news:active
+		{
+			font-size: x-small;
+			display: block;
+			font-family:Arial;
+			color: #033591;
+			padding: 3px;
+			text-decoration: none;
+		}
+
+/* Class for Hover on News links on homepage */				
+a.news:hover
+		{
+			color: #333;
+			background-color: #bfd3e5;
+			font-size: x-small;
+			display: block;
+			font-family:Arial;
+			padding: 3px;
+			text-decoration: none;
+		}
+
+/* Class for 'New at FMCSA' Heading link of homepage */		
+a.newsheading:link, a.newsheading:visited, a.newsheading:active
+		{
+			font-size: 12px; 
+			font-family:Arial;
+			color: #555;
+		}
+		
+/* Class for 'New at FMCSA' Heading link of homepage - Underline on Hover */				
+a.newsheading:hover
+		{
+			font-size: 12px; 
+			font-family:Arial;
+			color: #555;
+			text-decoration:underline;
+		}
+
+/*********************** News Box on Homepage - End **********************************/
+
+/*********************** Related Links Box on Homepage - Start **********************************/
+
+/* TD Class used for Related Links header */	
+td.rlhdr
+	{
+		font-size: 12px;
+		font-weight: bold;
+		color: #444;
+		padding-left: 4px;
+		border: 1px solid #555;
+		background-color: #C0C0C0;
+		background-position: top left;
+		height: 20px; 
+		background-repeat: repeat-x;
+		font-family:Arial;
+	}	
+	
+ul.rellinks 
+		{
+			margin-left: 10px;
+			padding: 0px;
+			margin: 0px;
+			list-style-type:none;
+			list-style-image:none;
+			display: block;
+		}
+
+li.rellinks 
+		{
+			margin-left: 10px;
+			padding: 0px;
+			margin: 0px;
+			list-style-type:none;
+			list-style-image:none;
+			display: block;
+			
+		}
+
+/* class for Realted Links */		
+a.rellink:link, a.rellink:visited, a.rellink:active
+		{
+			font-size:x-small;
+			display: block;
+			font-family:Arial;
+			color: #033591;
+			padding: 3px;
+			text-decoration: none;
+		}
+		
+
+/* Class for Hover on Related Links */				
+a.rellink:hover
+		{
+			color: #333;
+			background-color: #bfd3e5;
+			display: block;
+			font-family:Arial;
+			padding: 3px;
+			text-decoration: none;
+		}
+
+/* Class for selected related links items text*/
+.rltext
+{
+			
+			display: block;
+			font-family:Arial;
+			padding: 3px;
+			text-decoration: none;
+}
+
+/*********************** Related Links Box on Homepage - End **********************************/
+	
+/************************* Paragraph Classes - Start **********************************/
+
+/* Class for MCREGIS (Rules and Regulations Section) Headings */
+p.h3
+{
+	font-size: 14px;
+	font-weight:bold;
+	font-family:Arial;
+	color: #000000;
+	padding-top: 0px;
+	padding-bottom: 2px;
+	margin-bottom: 8px;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+/************************* Paragraph Classes - End ************************************/
+
+/**************************** General Table Container Classes - Start ****************/
+
+/* Main Table Container for the Homepage */
+table.contentContainer
+		{
+			 
+			 border-left:1px solid #555; 
+			 border-bottom:1px solid #555; 
+			 border-right:1px solid #555; 
+			 background-color: #fff;
+		}
+
+td.contentContainer
+		{
+			 border: 1px solid #555; 
+			 background-color: #fff;
+		}			
+
+/**************************** General Table Container Classes - End ****************/
+
+/******************************************* Data Table Classes - Start *************************/
+/* Container for data table */
+.TableFMCSA
+{
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #cacaca;
+}
+
+.TableFMCSA1
+{
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #cacaca;
+}
+
+/* Caption for Data Table */
+.TableTitleFMCSA
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-family:Arial;
+	color: #000000;
+	/*font-size: 12px; */
+	
+	padding-left: 5px;
+	font-weight: bold;
+	text-align: left;
+}
+
+/* Left Heading of Data Table */
+.LeftTableHeadFMCSA
+{
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #ffffff;
+	
+	font-family:Arial;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 8px;
+	/*background-color: #C8D8EF;*/
+	background-color: #466B90;
+	color:#FFFFFF;
+}
+
+.LeftTableHeadFMCSA1
+{
+	border-left: 1px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #ffffff;
+	
+	font-family:Arial;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 8px;
+	background-color: #C0BEBE;
+	color:White;
+}
+
+/* Right Heading of Data Table */
+.RightTableHeadFMCSA
+{
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #ffffff;
+	
+	font-family:Arial;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 8px;
+	background-color: #466B90;
+	color:White;
+	/*background-color: #C8D8EF;*/
+}
+
+/* Middle Table Header Cell of Data Table */
+.MiddleTableHeadFMCSA
+{
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #ffffff;
+	padding: 2px;
+	padding-left: 8px;
+	margin-top: 1px;
+	font-family:Arial;
+	font-weight: bold;
+	text-align: left;
+	background-color: #466B90;
+	color:White;
+	/*background-color: #C8D8EF;*/
+}
+
+/* White Data Cell */
+.MiddleTDFMCSA
+{
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #cacaca;
+	padding: 2px;
+	padding-left: 8px;
+	margin-top: 1px;
+	
+	font-family:Arial;
+	text-align: left;
+}
+
+.MiddleTDFMCSA1
+{
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #cacaca;
+	padding: 2px;
+	padding-left: 8px;
+	margin-top: 1px;vertical-align:top;	
+	font-family:Arial;
+	text-align: left;
+}
+
+.MiddleTDFMCSA_center
+{
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #cacaca;
+	padding: 2px;
+	padding-left: 8px;
+	margin-top: 1px;
+	font-size: small;
+	font-family:Arial;
+	text-align: center;
+}
+/* Gray Data Cell */
+.MiddleAltTDFMCSA
+{
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #cacaca;
+	padding: 2px;
+	padding-left: 8px;
+	margin-top: 1px;
+	
+	font-family:Arial;
+	text-align: left;
+	background-color: #ECECEC;
+}
+
+.MiddleAltTDFMCSA1
+{
+	border-left: 1px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 1px;
+	border-style: solid;
+	border-color: #cacaca;
+	padding: 2px;
+	padding-left: 8px;
+	margin-top: 1px;
+	vertical-align:top;
+	font-family:Arial;
+	text-align: left;
+	background-color: #ECECEC;
+}
+
+.MiddleAltTDFMCSA_center
+{
+	border-left: 0px;
+	border-top: 1px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #cacaca;
+	padding: 2px;
+	padding-left: 8px;
+	margin-top: 1px;
+	
+	font-family:Arial;
+	text-align: center;
+	background-color: #ECECEC;
+}
+
+
+/******************************************* Data Table Classes - Start *************************/
+
+/***************************** Additional Anchor Classes - Start **************************/
+
+/* Generic class for anchor tags */
+
+/*  class for 'More' anchor tags */
+a.more:link, a.more:visited, a.more:active
+		{
+			color: #033591;
+			font-size: x-small;
+			font-family:Arial;
+			text-decoration: none;
+		}
+/* class for hovering over 'More' anchor tags */
+a.more:hover
+{
+  color: #033591;
+  font-size: x-small;
+  font-family:Arial;
+  text-decoration:underline;
+}
+
+/* Class for Print functions */
+a.printme,a.printme:visited
+		{
+			font-size: 10px;
+			color: #033591;
+			font-family:Arial;
+			font-weight: normal;
+			text-decoration: none;
+			padding-right: 4px;
+			margin-right: 3px;
+		}
+
+/* Class for Print functions */
+a.printme:hover
+		{
+			text-decoration: underline;
+		}
+
+/* Anchor class for section links on the homepage */
+/* i.e. Rules and Regulations */ 
+a.h3:link, a.h3:visited, a.h3:active	
+	{
+		font-size: 18px;
+		font-family:georgia, times new roman, serif;
+		color: #a0161d;
+		font-weight: normal;
+		text-decoration: none;
+		margin-bottom: 0px;
+	}
+	
+/* Anchor class for section links on the homepage - Underline for a hover */
+/* i.e. Rules and Regulations */ 
+a.h3:hover
+	{
+		font-size: 18px;
+		font-family:georgia, times new roman, serif;
+		color: #a0161d;
+		font-weight: normal;
+		text-decoration: underline;
+		margin-bottom: 0px;
+	}
+
+/***************************** Additional Anchor Classes - End **************************/
+
+/***************************** Styles - Start *******************************************/
+
+/* Class for text used on Sitemap.asp page*/
+.sitemap
+		{
+			
+			font-family:Arial;
+		}
+		
+
+
+/* Created Underline For Heading on Pages */	
+h2.titleheadline
+	{
+		font-size: 20px;
+		font-family: georgia, times new roman, serif;
+		color: #172c65;
+		font-weight: normal;
+		font-style: italic;
+		margin-left: 4px;
+		margin-right: 4px;
+		margin-top: 0px;
+		margin-bottom: 0px;		
+	}	
+
+h3
+	{
+		font-size: 18px;
+		font-family: georgia, times new roman, serif;
+		color: #a0161d;
+		font-weight: normal;
+		margin-top: 0px;
+		margin-bottom: 0px;		
+	}
+	
+h3.subsection
+	{
+		font-size: 16px;
+		font-family:Arial;
+		color: #a0161d;
+		font-weight: normal;
+		margin-top: 0px;
+		margin-bottom: 0px;		
+	}
+
+h4, caption
+	{
+		font-size: 16px;
+		font-family:Arial;
+		color: #a0161d;
+		font-weight: normal;
+		margin-top: 0px;
+		margin-bottom: 0px;		
+	}
+
+/* Style for date listed on the homepage, right below the search */	
+h6.date
+		{
+			font-family:Arial;
+			font-style: italic;
+			font-weight: normal;
+			font-size:11px;
+			color: #3a4356;
+			margin-bottom: 4px;
+			margin-top: 3px;
+		}
+
+/* Underline for main section on homepage */		
+td.headline
+		{
+			border-bottom: 1px solid #555;
+		}
+
+/* Underline for the main heading on detail pages */		
+td.titleheadline		
+		{
+			border-bottom: 2px solid #a0161d;
+		}
+
+/***************************** Styles - End *******************************************/
+
+/******************************* Input Elements - Start ******************************************/
+form
+	{
+		margin-top:0px;
+		margin-bottom: 0px;
+		padding-top:0px;
+		padding-bottom:0px;
+		
+	}
+
+/* Text Search box class in Rules and Regulations */
+input.reg_text_search
+{
+    width: 110px;
+}
+
+/* Class for text fields in the site */	
+input.text
+{
+		font-family:Arial;
+		font-size:8pt;  
+		border-style:inset; 
+		border-width:2px; 
+}
+
+/* Class for radio buttons in the site */	
+input.radio
+{
+		font-family:Arial;
+		font-size:8pt;  
+		border-style:none; 
+		border-width:2px; 
+}
+
+/* Class for check boxes in the site */	
+input.checkbox
+{
+		font-family:Arial;
+		font-size:8pt;  
+		border-style:none; 
+		border-width:2px; 
+}
+
+/* Drop-Down list class */
+select
+{
+		font-family:Arial;
+		font-size:8pt; 
+		border-style:inset; 
+		border-width:2px; 
+}
+
+/* Used for buttons */
+input.button
+{
+	/*width: 24px;*/
+	height: 22px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:12px;
+	/* font-size:small; */
+	background-color:#454c5d;
+	border-style:outset;
+	color:#FFFFFF;
+}
+
+textarea
+{
+  font-family:Arial;
+  font-size:8pt;
+  border-style:inset; 
+  border-width:2px;
+  width:300px;
+  height:100px; 
+}
+
+
+/******************************* Input Elements - End ******************************************/
+
+/******************************* Misc Classes - Start *******************************************/
+* 		{
+		 padding 0;
+		 
+		}
+
+.clsTopPadd
+{
+	padding-top: 0px; 
+	background-color: #172b65;
+	border-top: solid 1px #555;
+	border-bottom: solid 1px #555;
+}
+img.bdr
+		{
+			border: 1px solid #555;
+		}
+li.main	
+		{
+			list-style-type: url(/images/style/bullet.gif);
+		}
+li.move
+	{
+		border-bottom: 1px solid #555;
+	}
+li.title
+		{
+			font-weight: bold;
+		}
+		
+li.hdr
+	{
+		font-size: 12px;
+		font-weight: bold;
+		color: #444;
+		padding-left: 4px;
+		border: 1px solid #555;
+		/*background-image: url("/images/new_style/graybackground.gif");
+		background-position: top left;
+		height: 20px;*/
+		background-color:#eaeaea;		
+		font-family:Arial;
+	}		
+		
+.newsspan
+{
+  padding-left:3px;
+}
+
+.relatedbg
+		{
+			border: 1px solid #555;
+			background-color: #ddd;
+			margin-top: 3px;
+		}
+
+.righttableBG, .righttableBG a:link, .righttableBG a:visited
+	{
+		font-size: 18px;
+		font-family: georgia, times new roman, serif;
+		color: #a0161d;
+		font-weight: normal;
+		margin-top: 0px;
+		margin-bottom: 0px;	
+		border-bottom: 1px solid #555;				
+	}
+
+table.searching
+		{
+			margin-left: 10px;
+		}
+
+td.bdrRight
+		{
+			border-right: 1px solid #555;
+		}
+
+td.header
+		{
+			border-top: 1px solid #555;
+			border-right: 1px solid #555;
+			background-color: #fff;
+			margin-top: 0px;
+		}
+
+
+td.righttableRLBorder
+{
+  border-left: 1px solid #555;
+  border-bottom: 1px solid #555;
+  border-right: 1px solid #555;
+}
+
+td.righttableRLBorder ul
+		{
+			padding: 0;
+			margin: 2px;
+			list-style-type:none;
+		}
+
+#qs
+		{
+			font-family:Arial;
+			font-size: 10px;
+			color: #333;
+			width: 150px;
+			
+		}
+		
+.yellowstrip
+{
+	background-color: #F9F8E3;
+	border-bottom: solid 1px #172b65;
+	border-top: solid 1px #172b65;
+	font-family:Arial;
+	font-size: 12px;
+	padding: 5px;
+	padding-left: 12px;
+
+}
+
+
+
+
+/******************************* Misc Classes - End *******************************************/
+
+.pubdate {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	padding-top: 6px;
+	padding-left: 0px;
+}
+
+/***************************** Getting started Guide *****************************************/
+		/*
+		td.progress is the white bubble.  
+		in the TDs that are white/not filled in, they must have the left_cap_wt.gif image as the first thing in the TD.  
+		td.progressSome sets the style elements for the TDs with the filled in color.
+		*/
+		td.progress
+		{
+			background-image: url("/images/gettingstarted/right_cap_wt.gif");
+			background-repeat: no-repeat;
+			background-position: top right;
+			height: 16px;	
+		}
+		td.progressSome
+		{
+			background-image: url("/images/gettingstarted/right_cap.gif");
+			background-repeat: no-repeat;
+			background-position: top right;
+			height: 16px;	
+		}
+		
+		table.progressbar
+		{
+			background-color: #eaeaea;
+			border-left:1px solid #555;
+			border-right:1px solid #555;
+		}
+		
+.sectionButton
+{
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Georgia;
+	text-align: center;
+	color: #172c65;
+	background-color: #DDE5EC;
+	border: 1px solid #BD5C61;/*a0161d;*/
+	padding: 5px;
+}		
+table.rhtable td.spacing {
+/*	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:8px;
+	*/
+}
+
+
+#rhtableHEAD {
+}
+
+#rhtableHEAD a:link, .rhtableHEAD a:visited{
+	
+	
+	background-image: url("/images/new_style/btnback.jpg");
+	font-size: 12px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Georgia;
+	
+/*	background-image: url("/images/new_style/btnback.jpg");
+	border-width: 0 1px 0 1px;
+	border-style: solid;
+	border-color: #ccc;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+	background-position: top left;
+	background-repeat: repeat-x;
+	
+*/
+}
+/*Motor Carrier Safety Progress Report*/
+.pH2 {
+	color: #993300;
+	font-size: smaller;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table#tblSafety  {	
+	font-family: Arial, Helvetica, sans-serif;
+	border: thin #6633ff;
+	padding: 0px;	
+	background-position: center;
+	}
+.tblSafetySub {
+	background-color: #3333ff;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: larger;
+}
+.tblSafetySub1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight:normal;
+}
+.tblSafetyData{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table#tblQuality  {	
+	font-family: Arial, Helvetica, sans-serif;
+	border: thin #993300;
+	padding: 1px;	
+	background-position: center;
+	}
+.tblQualitySub {
+	background-color: #993300;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: larger;
+	border: #FFFFFF;
+}
+.tblQualitySubH {
+	background-color:#ffcc99;
+	text-align: left;
+}
+.tblQualitySub1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight:normal;
+}
+.tblQualityData{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+table#tblProgram  {	
+	font-family: Arial, Helvetica, sans-serif;
+	border: thin #6633ff;
+	padding: 1px;	
+	background-position: center;
+	}
+.tblProgramSub {
+	background-color: #3333ff;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: larger;
+	border: #FFFFFF;
+}
+.tblProgramSubH {
+	background-color:#33ccff;
+	text-align: left;
+}
+.tblProgramSub1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	font-weight:normal;
+}
+.tblProgramData{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tdNote {
+	font-size: smaller;
+	font-style: italic;
+	text-align: left;
+}
+/*CMV Driver Tips*/
+#references {
+	list-style-position: outside;
+}
+#references li{
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	margin-left: 1.25em;
+	
+}
+.pgNav{
+	text-align: right;
+	}
+.pgNav a:link {
+
+}
+
+.SpanTimer
+{
+	background-color :Gray;
+	color:navy;
+	font-size : 30px;
+	vertical-align:middle;
+}
+
+
+
+
+
+/*FANCY DOTTED-GRAY-LINE BORDER FOR TABLES/BOXES USED FOR "QUICK NAV"*/
+.quicknav {
+border-width: 0.15em;
+border-color: #E6E6E6;
+border-style: dashed;
+font-size:10px;
+font-size-adjust: inherit;
+}
+
+.quicknav a:link
+{
+	font-size:10px;
+
+}
+.quicknav a:visited
+{
+	font-size:10px;
+
+}
+
+/*CVISN-POC*/
+
+.odd {
+	background-color: #DEFEE9;
+	border: thin solid #aaaaaa;
+}
+.odd h2 {
+	margin-top: 0px;
+	color: #FFFFFF;
+	background-color: #0033CC;
+	font-size: medium;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+.even {
+	background-color: #FFFFFF;
+	border: thin solid #aaaaaa;
+}
+.heading2 {	margin-top: 0px;
+	color: #FFFFFF;
+	background-color: #0033CC;
+		font-size:larger;
+		font-weight:bold;
+		font-style:normal;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+}
+.PositionBackground6
+{
+	position :relative;
+	top :0px;
+	left:75px;
+	color:White;
+}
+.PositionBackgroundFinish2
+{
+	position :relative;
+	top :10px;
+	left:75px;
+}
+
